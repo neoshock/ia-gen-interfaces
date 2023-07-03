@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .editor {
+    flex: 1;
+    border-radius: 5px;
+    border: 1px solid #5e5e5e;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    resize: none;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .phone {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .preview {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+  }
+  
